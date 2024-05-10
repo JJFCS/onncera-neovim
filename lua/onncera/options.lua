@@ -51,7 +51,7 @@ vim.opt.clipboard      = "unnamedplus"          -- Sync clipboard between OS & N
 vim.opt.colorcolumn    = "80"                   -- Reference to not write code longer than 80 characters
 
 vim.opt.signcolumn     = "yes"                  -- Signcolumn on by default
-vim.opt.inccommand     = "split"                -- Sneak Preview substitutions live, as you type!
+vim.opt.inccommand     = "split"                -- Sneak preview substitutions live, as you type!
 
 vim.opt.scrolloff      = 10                     -- Screen lines (minimum amount) to keep above and below the cursor
 vim.opt.cmdheight      = 2
