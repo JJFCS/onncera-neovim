@@ -26,6 +26,5 @@
 
 		Onncera's personal remaps
 			Find a better remap for <esc>
-			Obliterate window management section? (split and window focus remaps)
 --]]
 
