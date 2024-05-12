@@ -1,6 +1,5 @@
 return {
-
-	{ "folke/trouble.nvim",
+	"folke/trouble.nvim",
 		config = function()
 			require("trouble").setup({
 				icons = false,
@@ -10,6 +9,5 @@ return {
 			vim.keymap.set("n", "]t",         function() require("trouble").next({skip_groups = true, jump = true});     end, { desc = "Go to next [T]rouble [D]iagnostic message"     })
 			vim.keymap.set("n", "[t",         function() require("trouble").previous({skip_groups = true, jump = true}); end, { desc = "Go to previous [T]rouble [D]iagnostic message" })
 		end
-	},
 }
 
